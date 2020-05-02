@@ -1,0 +1,17 @@
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-group button {
+    padding: 15px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+
+    }

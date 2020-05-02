@@ -1,28 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
-* {
-  margin: 0;
-  padding: 0;
-
-}
-
 body {
-  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   font-weight:400;
-  max-width: 800px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-size: 20px;
   margin: 0 auto;
   background-color: #333;
 
 }
 
 .App {
-  text-align: center;
+  background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    width: 750px;
+    margin: auto;
+    overflow: hidden;
 }
 
-header {
-  background-color: lightskyblue;
-  color: #fff;
-  padding: 5em;
-
-}

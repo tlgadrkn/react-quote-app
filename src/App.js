@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Header from './Header.js';
-import QuoteContainer from './QuoteContainer';
+import Header from './components/Header/Header';
+import QuoteContainer from './components/QuoteContainer/QuoteContainer';
 
 function App() {
 
+  const URL = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json'
+
+  let buttons = ["Tweet This Quote", "New Quote"];
   let [quotes, setQuotes] = useState([
     {
       quote: "Life isn’t about getting and having, it’s about giving and being.",
@@ -28,7 +31,6 @@ function App() {
       },
 
   ]);
-  const URL = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json'
 
 let [randomQuote, setRandomQuote] = useState([]);
 
@@ -47,9 +49,7 @@ useEffect( () => {
   return (
     <div className="App">
       <Header />
-      <QuoteContainer quoteToRender={randomQuote}/>
-      <button>test</button>
-
+      <QuoteContainer quoteToRender={randomQuote} buttonToRender={buttons}/>
     </div>
   );
 }

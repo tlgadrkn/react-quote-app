@@ -8,7 +8,7 @@ const Button = (props) => {
    {props.buttonToRender && 
             props.buttonToRender
             .map( (button, index) => (
-                <button key={index}>{button}</button>
+                <button onClick={props.handleQuoteChange} key={index}>{button}</button>
                 )) }      
           </div>
     )

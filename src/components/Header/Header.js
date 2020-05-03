@@ -1,10 +1,10 @@
 import React from 'react';
 import headerStyle  from './header.css'
 
-const Header = () => {
+const Header = ({colorToRender}) => {
 
     return (
-        <header style={headerStyle}>
+        <header style={colorToRender} className="header">
             <h1>React Random Quotes</h1>
         </header>
     )

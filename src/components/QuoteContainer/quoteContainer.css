@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: rgb(97, 193, 248);
-    padding: 5em;
+    padding: 2em 4em;
     color: #fff;
+    
 }

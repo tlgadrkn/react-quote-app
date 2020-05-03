@@ -1,7 +1,7 @@
-header {
-    background-color: rgb(35, 133, 194);
+.header {
+    /* background-color: rgb(35, 133, 194); */
     color: #fff;
-    padding: 2em;
+    padding: 1em;
     text-align: center;
   
   }

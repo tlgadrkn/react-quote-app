@@ -3,12 +3,12 @@ import QuoteItem from '../QuoteItem/QuoteItem';
 import style from './quoteContainer.css';
 import Button from '../Button/Button';
 
-const Quotes =  ({quoteToRender, buttonToRender}) => {
+const Quotes =  ({quoteToRender, buttonToRender, colorToRender, handleQuoteChange}) => {
 
 return (
-  <div style={style} className="quote-container">
+  <div  style={colorToRender} className="quote-container">
    <QuoteItem quoteToRender={quoteToRender}/>
-  <Button buttonToRender={buttonToRender}/>
+    <Button handleQuoteChange={handleQuoteChange} buttonToRender={buttonToRender}/>
 
   </div>
 

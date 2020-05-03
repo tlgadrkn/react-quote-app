@@ -1,0 +1,8 @@
+.quote-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2em 4em;
+    color: #fff;
+    
+}

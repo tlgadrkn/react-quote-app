@@ -1,0 +1,15 @@
+.quote-text {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+span#text {
+    font-weight: 400;
+}
+
+.quote-author {
+    padding-top: 3rem;
+    font-weight: 600;
+    text-align: center;
+}

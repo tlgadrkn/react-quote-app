@@ -15,3 +15,10 @@
     font-weight: 600;
 
     }
+
+    .btn-group button:hover {
+        transform: scale(1.05);
+        transition: transform ease-in-out 0.5s;
+        opacity: 0.8;
+
+    }

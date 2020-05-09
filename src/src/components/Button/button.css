@@ -22,3 +22,11 @@
         opacity: 0.8;
 
     }
+     button  ion-icon{
+        text-decoration: none;
+        height: 1.5rem;
+        width: 1.5rem;
+
+    }
+
+    
